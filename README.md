@@ -1,1 +1,1 @@
-A simple app for my fiancee so she can check the bus.
+A simple app for my fiancee to check the bus.
