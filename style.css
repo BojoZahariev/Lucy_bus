@@ -1,34 +1,39 @@
-/* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+* {
+    box-sizing: border-box;
+}
 
+body,
 html {
+  margin: 0px;
+  min-height: 100%;
+}
+
+body {
   text-align: center;
-  font: 12px/15px sans-serif;
-  padding: 3px;
-  background-image: url("https://image.ibb.co/bLe1r8/pexels_photo_303327.jpg");
+  font-family: 'Merriweather', serif;
+  background-image: url(images/london-bus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
   background-color: #464646;
-  min-height: 100%;;
   }
 
-h1 {
-  font-size: 30px;
-  color: #74b9ff;
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
-  line-height: 1.4;
   display: block;
-  box-sizing: border-box;
   width: 400px;
-  font-family: Merriweather;
   font-size: 35px;
   text-align: center;
+  margin-bottom: 15%;
   height: 300px;
-  margin: 200px auto;
-  padding: 120px 20px;
+  line-height: 300px;
   background: #0097e6;
   color: #fff;
   -webkit-border-radius: 4px;
@@ -37,3 +42,4 @@ h1 {
   border: solid 2px #2f3640;
   text-decoration: none;
 }
+
