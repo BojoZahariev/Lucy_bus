@@ -32,12 +32,12 @@ body {
 
 .button {
   display: block;
-  width: 40vw;
-  height: 30vh;
-  font-size: 7vw;
+  width: 180px;
+  height: 150px;
+  font-size: 28px;
+  line-height: 150px;
   text-align: center;
-  margin: 10vh auto;
-  padding-top: 11vh;
+  margin: 40px auto;
   background: #0097e6;
   color: #fff;
   -webkit-border-radius: 4px;
@@ -48,4 +48,3 @@ body {
   text-shadow: 2px 1px black;
   outline: none;
 }
-
