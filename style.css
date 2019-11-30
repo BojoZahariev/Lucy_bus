@@ -1,14 +1,9 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body,
 html {
   margin: 0px;
-  min-height: 100%;
-}
-
-body {
   text-align: center;
   font-family: 'Merriweather', serif;
   background-image: url(images/london-bus.jpg);
@@ -16,28 +11,25 @@ body {
   background-size: cover;
   background-position: bottom;
   background-color: #464646;
-  }
-
-.container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
 }
 
-.small-container {
-  width: 100vw;
-  margin: auto;
+.container {
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .button {
   display: block;
   width: 180px;
   height: 150px;
-  font-size: 28px;
   line-height: 150px;
+  font-size: 100%;
   text-align: center;
-  margin: 40px auto;
+  margin: 0px auto 40px;
   background: #0097e6;
   color: #fff;
   -webkit-border-radius: 4px;
@@ -47,4 +39,28 @@ body {
   text-decoration: none;
   text-shadow: 2px 1px black;
   outline: none;
+}
+
+.weather {
+  font-size: 25px;
+  color: #fdfffc;
+  text-shadow: 0px 0px 5px #000, -1px -1px #000, 1px 1px #000;
+}
+
+.weather-part {
+  padding: 10px;
+}
+
+#temp {
+  font-size: 30px;
+}
+
+/*MEDIA*/
+
+@media screen and (max-width: 576px) {
+  .button {
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+  }
 }
